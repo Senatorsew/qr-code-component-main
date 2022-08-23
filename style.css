@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Poppins:wght@200;300;400;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "outfit", sans-serif;
+}
+
+.card {
+  width: 305px;
+  height: 500px;
+  padding: 16px;
+  border-radius: 18px;
+  background-color: white;
+}
+
+img{
+  width: 270px;
+  height: 300px;
+  border-radius: 18px;
+  text-align: center;
+  justify-content: center;
+}
+
+h2{
+  font-family: "outfit", sans-serif;;
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p{
+  font-family: "outfit", sans-serif;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+}
